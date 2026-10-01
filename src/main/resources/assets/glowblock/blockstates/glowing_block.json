@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "glowblock:block/glowing_block"
+    }
+  }
+}

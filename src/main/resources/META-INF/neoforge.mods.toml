@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "glowblock"
+version = "${version}"
+displayName = "GlowBlock"
+authors = "You"
+description = '''
+Adds glowing block outlines for selected blocks.
+'''
+iconFile = "assets/glowblock/icon.png"
+
+[[dependencies.glowblock]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.glowblock]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.2,)"
+ordering = "NONE"
+side = "BOTH"
